@@ -8,7 +8,7 @@
   "description": "A simple Express MVC using only static files",
   "main": "./server/app.js",
   "scripts": {
-    "nodemon": "nodemon --watch ./server ./server/app.js",
+    "nodemon": "nodemon --watch ./server ./router.js ./server/app.js",
     "start": "node ./server/app.js",
     "pretest": "eslint ./server --fix",
     "test": "echo \"tests complete\""
